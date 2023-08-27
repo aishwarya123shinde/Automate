@@ -11,8 +11,8 @@ public class App {
       // Search_Amazon amazon = new Search_Amazon();
      // BookMyShow links = new BookMyShow();
        // PostOnLinkdIn linkdIn = new PostOnLinkdIn();
-       ImdbRatingAutomate ratingAutomate = new ImdbRatingAutomate();
-      
+       //ImdbRatingAutomate ratingAutomate = new ImdbRatingAutomate();
+       AuotmatNesttedFame nesttedFame = new AuotmatNesttedFame();
 
         //TODO: call your test case functions one after other here
 
@@ -20,15 +20,15 @@ public class App {
         // amazon.searchAmazon();
           // links.bookmyshow();
          // linkdIn.PostOnLinkdIn();
-        ratingAutomate.rating();
-        
+      //  ratingAutomate.rating();
+        nesttedFame.nestedFrame();
         //END Tests
 
      //  amazon.endTest();
       // links.endTest();
       //linkdIn.endTest();
-      ratingAutomate.endTest();
-      
+      //ratingAutomate.endTest();
+      nesttedFame.endTest();
        // tests.endTest(); // End your test by clearning connections and closing browser
     }
 
