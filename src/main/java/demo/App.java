@@ -12,7 +12,8 @@ public class App {
      // BookMyShow links = new BookMyShow();
        // PostOnLinkdIn linkdIn = new PostOnLinkdIn();
        //ImdbRatingAutomate ratingAutomate = new ImdbRatingAutomate();
-       AuotmatNesttedFame nesttedFame = new AuotmatNesttedFame();
+       //AuotmatNesttedFame nesttedFame = new AuotmatNesttedFame();
+       Automate_Window_handle eWindow_handle = new Automate_Window_handle();
 
         //TODO: call your test case functions one after other here
 
@@ -21,14 +22,17 @@ public class App {
           // links.bookmyshow();
          // linkdIn.PostOnLinkdIn();
       //  ratingAutomate.rating();
-        nesttedFame.nestedFrame();
+        //nesttedFame.nestedFrame();
+        eWindow_handle.windowHandle();
+
         //END Tests
 
      //  amazon.endTest();
       // links.endTest();
       //linkdIn.endTest();
       //ratingAutomate.endTest();
-      nesttedFame.endTest();
+      //nesttedFame.endTest();
+      eWindow_handle.endTest();
        // tests.endTest(); // End your test by clearning connections and closing browser
     }
 
