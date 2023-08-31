@@ -14,7 +14,8 @@ public class App {
        //ImdbRatingAutomate ratingAutomate = new ImdbRatingAutomate();
        //AuotmatNesttedFame nesttedFame = new AuotmatNesttedFame();
       // Automate_Window_handle eWindow_handle = new Automate_Window_handle();
-        LinkedProfile profile = new LinkedProfile();
+       // LinkedProfile profile = new LinkedProfile();
+       Automate_Image_Url image_Url = new Automate_Image_Url();
 
         //TODO: call your test case functions one after other here
 
@@ -25,7 +26,8 @@ public class App {
       //  ratingAutomate.rating();
         //nesttedFame.nestedFrame();
        // eWindow_handle.windowHandle();
-         profile.linked();
+         //profile.linked();
+         image_Url.automateimgUrl();
 
         //END Tests
 
@@ -35,7 +37,8 @@ public class App {
       //ratingAutomate.endTest();
       //nesttedFame.endTest();
      // eWindow_handle.endTest();
-        profile.endTest();
+       // profile.endTest();
+       image_Url.endTest();
        // tests.endTest(); // End your test by clearning connections and closing browser
     }
 
