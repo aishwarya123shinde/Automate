@@ -13,7 +13,8 @@ public class App {
        // PostOnLinkdIn linkdIn = new PostOnLinkdIn();
        //ImdbRatingAutomate ratingAutomate = new ImdbRatingAutomate();
        //AuotmatNesttedFame nesttedFame = new AuotmatNesttedFame();
-       Automate_Window_handle eWindow_handle = new Automate_Window_handle();
+      // Automate_Window_handle eWindow_handle = new Automate_Window_handle();
+        LinkedProfile profile = new LinkedProfile();
 
         //TODO: call your test case functions one after other here
 
@@ -23,7 +24,8 @@ public class App {
          // linkdIn.PostOnLinkdIn();
       //  ratingAutomate.rating();
         //nesttedFame.nestedFrame();
-        eWindow_handle.windowHandle();
+       // eWindow_handle.windowHandle();
+         profile.linked();
 
         //END Tests
 
@@ -32,7 +34,8 @@ public class App {
       //linkdIn.endTest();
       //ratingAutomate.endTest();
       //nesttedFame.endTest();
-      eWindow_handle.endTest();
+     // eWindow_handle.endTest();
+        profile.endTest();
        // tests.endTest(); // End your test by clearning connections and closing browser
     }
 
